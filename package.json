@@ -1,0 +1,31 @@
+{
+  "name": "sql-query-builder",
+  "version": "0.0.1",
+  "description": "A simple SQL string generator",
+  "main": "lib",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "format": "prettier --write src/**/*.{ts,js}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giridharangm/sql-query-builder.git"
+  },
+  "keywords": [
+    "SQL",
+    "query",
+    "builder"
+  ],
+  "author": "Giridharan GM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giridharangm/sql-query-builder/issues"
+  },
+  "homepage": "https://github.com/giridharangm/sql-query-builder#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "prettier": "^1.15.1",
+    "typescript": "^3.1.6"
+  }
+}
